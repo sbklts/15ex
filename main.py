@@ -95,7 +95,7 @@ class Ui_MainWindow(object):
         self.Button_mix.clicked.connect(self.if_mix)
 
     def if_kon(self):
-        tasks = Task(path='data/koor/')
+        tasks = Task(path='data/kon/')
         self.tasks = tasks
         self.open_window_task()
 
